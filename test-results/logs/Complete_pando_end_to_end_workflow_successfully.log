@@ -1,0 +1,36 @@
+2026-05-11 01:22:54 [info] Scenario Started : Complete pando end to end workflow successfully
+2026-05-11 01:22:54 [info] Navigating to application
+2026-05-11 01:22:56 [info] Performing login
+2026-05-11 01:22:56 [info] Entering email : arunkumarannadurai+Kishore@pando.in
+2026-05-11 01:22:57 [info] Entering password
+2026-05-11 01:22:58 [info] Clicking login button
+2026-05-11 01:22:59 [info] Assertion-Homepage
+2026-05-11 01:23:02 [info] Creating indent
+2026-05-11 01:23:02 [info] Adding source location
+2026-05-11 01:23:05 [info] Adding destination
+2026-05-11 01:23:07 [info] Selecting Delivery Type
+2026-05-11 01:23:08 [info] Selecting Vehicle Type
+2026-05-11 01:23:09 [info] Entering rate : 12000
+2026-05-11 01:23:10 [info] Selecting Transporter
+2026-05-11 01:23:13 [info] Getting source depot
+2026-05-11 01:23:13 [info] Assertion-Indent-success-message
+2026-05-11 01:23:14 [info] Searching with saved indent
+2026-05-11 01:23:19 [info] Applying Source Filter
+2026-05-11 01:23:23 [info] Checking Search Result with saved indent number
+2026-05-11 01:23:23 [info] Entering Upload details
+2026-05-11 01:23:24 [info] Entering LR Number
+2026-05-11 01:23:26 [info] Assertion-LR-Success-Message
+2026-05-11 01:23:27 [info] Assigning Truck Details
+2026-05-11 01:23:33 [info] Assertion-Assign-Success-Message
+2026-05-11 01:23:34 [info] Reporting truck arrival 
+2026-05-11 01:23:36 [info] Assertion-reported
+2026-05-11 01:23:36 [info] Reporting truck in 
+2026-05-11 01:23:39 [info] Assertion-Truck-In-Message
+2026-05-11 01:23:39 [info] Reporting truck out 
+2026-05-11 01:23:41 [info] Assertion-Truck-In-Message
+2026-05-11 01:23:41 [info] Mark as Completed details
+2026-05-11 01:23:49 [info] Mark-as-completed-Message
+2026-05-11 01:23:49 [info] Entering Upload details
+2026-05-11 01:23:50 [info] Approve Consignee
+2026-05-11 01:23:51 [info] Verify consignee msg
+2026-05-11 01:23:51 [info] Scenario Passed : Complete pando end to end workflow successfully

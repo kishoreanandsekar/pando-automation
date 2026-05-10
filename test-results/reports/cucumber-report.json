@@ -1,0 +1,313 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "pando-end-to-end-automation;complete-pando-end-to-end-workflow-successfully",
+        "keyword": "Scenario Outline",
+        "line": 28,
+        "name": "Complete pando end to end workflow successfully",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 32781399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User navigates to login page",
+            "match": {
+              "location": "src\\test\\steps\\TC001_EndToEndStep.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2432611100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "User logs in with valid credentials",
+            "match": {
+              "location": "src\\test\\steps\\TC001_EndToEndStep.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2351137300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "User should be logged in and verify message \"QA Pando - Outbound\"",
+            "match": {
+              "location": "src\\test\\steps\\TC001_EndToEndStep.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2954621400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User creates an indent with valid details",
+            "match": {
+              "location": "src\\test\\steps\\TC001_EndToEndStep.js:67"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10953902700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "User should verify indent success message \"Indent created with number\"",
+            "match": {
+              "location": "src\\test\\steps\\TC001_EndToEndStep.js:89"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 969569400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "User searches with indent number and source depot filter",
+            "match": {
+              "location": "src\\test\\steps\\TC001_EndToEndStep.js:109"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9817091200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "Created indent should appear in results",
+            "match": {
+              "location": "src\\test\\steps\\TC001_EndToEndStep.js:119"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 132829300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "User navigates to document page and enters valid details",
+            "match": {
+              "location": "src\\test\\steps\\TC001_EndToEndStep.js:127"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2516373500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "User verifies LR success message \"LR number saved successfully\"",
+            "match": {
+              "location": "src\\test\\steps\\TC001_EndToEndStep.js:147"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 733201099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "User provides vehicle details to assign vehicle \"KA14\" \"5553\" \"9321654987\" \"jim\" \"90\" \"30\" \"20\"",
+            "match": {
+              "location": "src\\test\\steps\\TC001_EndToEndStep.js:158"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6079641900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "User verifies assign state success message \"Truck assigned for indent\"",
+            "match": {
+              "location": "src\\test\\steps\\TC001_EndToEndStep.js:168"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 958827299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "User reports the vehicle arrival",
+            "match": {
+              "location": "src\\test\\steps\\TC001_EndToEndStep.js:179"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2074271399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "User verifies the reported state with success message \"Truck reported at depot for\"",
+            "match": {
+              "location": "src\\test\\steps\\TC001_EndToEndStep.js:189"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 38033400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "User provide truck in time details \"09-05-2026 09:17PM\"",
+            "match": {
+              "location": "src\\test\\steps\\TC001_EndToEndStep.js:199"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2679608999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "User verifies truck in success message with \"Truck arrived for indent\"",
+            "match": {
+              "location": "src\\test\\steps\\TC001_EndToEndStep.js:209"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 52357600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "User provide truck out time details \"10-05-2026 10:17PM\"",
+            "match": {
+              "location": "src\\test\\steps\\TC001_EndToEndStep.js:218"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2646162900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "User verifies truck out success message with \"Truck dispatched for indent\"",
+            "match": {
+              "location": "src\\test\\steps\\TC001_EndToEndStep.js:228"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 54973900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "User provide Delivery time details with \"11-05-2026 12:00AM\" \"11-05-2026 12:00AM\" \"11-05-2026 12:00AM\" \"11-05-2026 12:00AM\"",
+            "match": {
+              "location": "src\\test\\steps\\TC001_EndToEndStep.js:238"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7335542399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "User verifies delivery success message with \"Indent number PAND\"",
+            "match": {
+              "location": "src\\test\\steps\\TC001_EndToEndStep.js:247"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 44891700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "User approves the consignees",
+            "match": {
+              "location": "src\\test\\steps\\TC001_EndToEndStep.js:255"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2648927400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "User should verify completed success message \"GRN Approved\"",
+            "match": {
+              "location": "src\\test\\steps\\TC001_EndToEndStep.js:266"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 113242699
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 6049652900
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "pando-end-to-end-automation",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Pando end to end automation",
+    "tags": [],
+    "uri": "src\\test\\features\\TC001_EndToEndAutomation.feature"
+  }
+]
