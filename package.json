@@ -1,0 +1,33 @@
+{
+  "name": "pando",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cross-env cucumber-js --config=config/cucumber.cjs",
+    "test:qa": "cross-env ENV=qa cucumber-js --config=config/cucumber.cjs",
+    "test:staging": "cross-env ENV=staging cucumber-js --config=config/cucumber.cjs",
+    "test:smoke": "cross-env TAGS='@smoke' cucumber-js --config=config/cucumber.cjs",
+    "test:regression": "cross-env TAGS='@regression' cucumber-js --config=config/cucumber.cjs",
+    "test:failed": "cucumber-js -p rerun @rerun.txt",
+    "test:headed": "cross-env HEADLESS=false cucumber-js --config=config/cucumber.cjs",
+    "test:headless": "cross-env HEADLESS=true cucumber-js --config=config/cucumber.cjs",
+    "test:debug": "cross-env PWDEBUG=1 cucumber-js --config=config/cucumber.cjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@cucumber/cucumber": "^12.8.2",
+    "cross-env": "^10.1.0",
+    "dotenv": "^17.4.2",
+    "fs-extra": "^11.3.5",
+    "winston": "^3.19.0"
+  },
+  "devDependencies": {
+    "@cucumber/html-formatter": "^23.1.0",
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.6.2"
+  }
+}
